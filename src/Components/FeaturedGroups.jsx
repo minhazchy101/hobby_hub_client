@@ -6,7 +6,7 @@ const FeaturedGroups = ({ initfeatureds }) => {
   return (
     <>
     
-    <div className="my-5 w-full max-w-7xl mx-auto px-4">
+    <div className=" w-full max-w-7xl mx-auto px-4 my-3 py-8">
       {/* <h1 className='text-7xl'>{initfeatureds.length}</h1> */}
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">

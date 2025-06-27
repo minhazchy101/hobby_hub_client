@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 
 const Banner = () => {
     return (
-        <div className="w-full max-w-7xl mx-auto rounded-2xl  px-4">
+        <div className="w-full max-w-7xl mx-auto rounded-2xl my-3 py-8 px-4">
             <div className="flex flex-col lg:flex-row-reverse items-center justify-between gap-8">
                 
                 {/* Text Side */}

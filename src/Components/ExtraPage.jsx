@@ -2,9 +2,9 @@ import React from 'react';
 
 const ExtraPage = () => {
     return (
-        <div>
+        <>
             <div
-  className="hero min-h-screen"
+  className="hero min-h-screen my-3"
   style={{
     backgroundImage:
       "url(https://i.ibb.co/4nmBDJTz/istockphoto-1181470447-612x612.jpg)",
@@ -22,7 +22,7 @@ const ExtraPage = () => {
   </div>
 </div>
          
-        </div>
+        </>
     );
 };
 

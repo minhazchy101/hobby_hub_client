@@ -13,8 +13,8 @@ const DashMain = () => {
     return (
         <>
           <div className='text-center mb-6'>
-      <h2 className="text-2xl font-semibold mb-2">Dashboard Home</h2>
-      <p>This is your dashboard overview. You can See users, groups, and more.</p>
+      <h2 className="text-2xl md:text-3xl font-semibold mb-2">Dashboard Home</h2>
+      <p>This is your dashboard overview. You can See users and groups.</p>
     </div> 
 
     <div className='flex flex-col md:flex-row items-center justify-around gap-6'>

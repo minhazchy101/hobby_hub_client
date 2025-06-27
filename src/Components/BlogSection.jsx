@@ -23,7 +23,7 @@ const blogPosts = [
 
 const BlogSection = () => {
   return (
-    <section className="w-full max-w-7xl mx-auto py-16 px-4">
+    <section className="w-full max-w-7xl mx-auto py-16 px-4 my-3">
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold mb-2">Latest from Our Blog</h2>
         <p className="text-gray-600">

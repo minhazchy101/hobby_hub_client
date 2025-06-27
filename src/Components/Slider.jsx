@@ -5,13 +5,13 @@ import { Carousel } from 'react-responsive-carousel';
 
 const Slider = () => {
     return (
-        <div className=" w-full max-w-7xl mx-auto  px-4">
+        <div className=" w-full max-w-7xl mx-auto px-4 my-3 ">
             <div className="flex flex-col lg:flex-row items-center justify-between gap-10 min-h-[70vh]">
                 
                 {/* Text Content */}
 
 
-                <div className="flex-1 text-center lg:text-left">
+                <div className="flex-1 text-center lg:text-left ">
                                   <h1 className='text-4xl'>
                                     Welcome to 
                                     <span className="text-4xl font-extrabold text-primary"> Hobby Hub</span>

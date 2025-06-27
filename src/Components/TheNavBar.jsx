@@ -52,8 +52,8 @@ const TheNavBar = () => {
 
   {
     user && <>
-    <li><NavLink className={({isActive})=>(isActive ? 'text-primary font-bold' : 'font-sem')} to='/createGroup'>Create Groups</NavLink></li>
-    <li><NavLink className={({isActive})=>(isActive ? 'text-primary font-bold' : 'font-sem')} to='/myGroups'>My Groups</NavLink></li>
+    {/* <li><NavLink className={({isActive})=>(isActive ? 'text-primary font-bold' : 'font-sem')} to='/createGroup'>Create Groups</NavLink></li> */}
+    {/* <li><NavLink className={({isActive})=>(isActive ? 'text-primary font-bold' : 'font-sem')} to='/myGroups'>My Groups</NavLink></li> */}
     <li><NavLink className={({isActive})=>(isActive ? 'text-primary font-bold' : 'font-sem')} to='/dashBoard'>Dash Board</NavLink></li>
     
     </>
@@ -62,7 +62,7 @@ const TheNavBar = () => {
     </>
 
     return (
-        <div className='bg-secondary shadow-lg sticky top-0 z-50'>
+        <div className='bg-secondary shadow-lg sticky top-0 z-50 mb-3'>
             <div className="navbar w-full max-w-7xl mx-auto">
   <div className="navbar-start">
     <div className="dropdown">
@@ -73,6 +73,14 @@ const TheNavBar = () => {
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-200 rounded-box z-1 mt-3 w-52 p-2 shadow">
        {link}
+     {
+      user ? 
+      <Link onClick={handleLogOut} className="btn mt-3 btn-primary text-white btn-outline">LogOut</Link> 
+      : 
+      <Link to='/login' className="btn btn-primary mt-3 text-white btn-outline">Login</Link>
+     }
+  
+  
       </ul>
     </div>
     <Link to='/' className=" text-xl md:text-3xl font-bold text-primary">HobbyHub </Link>
@@ -82,8 +90,8 @@ const TheNavBar = () => {
     {link}
     </ul>
   </div>
-  <div className="navbar-end">
-    
+  <div className="navbar-end hidden lg:flex">
+    {/* <input type="checkbox" value='aqua' className='toggle theme-controller'/> */}
       {user ? 
          <div className="flex">
     <div className="relative flex flex-col group">
