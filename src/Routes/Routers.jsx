@@ -14,6 +14,9 @@ import PrivateRoute from "../Private/PrivateRoute";
 import TheLoad from "../Others.jsx/TheLoad";
 import GroupDetails from "../Pages/GroupDetails";
 import UpdateGroup from "../Pages/UpdateGroup";
+import DashBoard from "../DashBoard/DashBoard";
+import DashMain from "../DashBoard/DashMain";
+import Groups from "../DashBoard/Groups";
 
 export const router = createBrowserRouter([
   {
@@ -65,4 +68,17 @@ export const router = createBrowserRouter([
     },
    ]
   },
+  {
+    path : '/dashBoard',
+    Component : DashBoard ,
+    children: [
+      { index: true, element: <DashMain />,
+         loader : ()=> fetch('https://assignment-ten-server-sepia.vercel.app/hobby'),
+        HydrateFallback : TheLoad
+       },
+      
+      { path: 'thegroups', component : Groups },
+      // { path: 'groups', element: <MyGroups /> },
+    ],
+  }
 ]);

@@ -55,6 +55,7 @@ const TheNavBar = () => {
     user && <>
     <li><NavLink className={({isActive})=>(isActive ? 'text-primary font-bold' : 'font-sem')} to='/createGroup'>Create Groups</NavLink></li>
     <li><NavLink className={({isActive})=>(isActive ? 'text-primary font-bold' : 'font-sem')} to='/myGroups'>My Groups</NavLink></li>
+    <li><NavLink className={({isActive})=>(isActive ? 'text-primary font-bold' : 'font-sem')} to='/dashBoard'>Dash Board</NavLink></li>
     
     </>
   }

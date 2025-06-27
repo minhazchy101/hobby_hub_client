@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useLoaderData } from 'react-router'; // use 'react-router-dom' not 'react-router'
+import { Link, useLoaderData } from 'react-router'; 
 
 const AllGroups = () => {
   const originalGroups = useLoaderData();
