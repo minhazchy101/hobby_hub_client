@@ -4,6 +4,7 @@ import Slider from '../Components/Slider';
 import { useLoaderData } from 'react-router';
 import FeaturedGroups from '../Components/FeaturedGroups';
 import ExtraPage from '../Components/ExtraPage';
+import BlogSection from '../Components/BlogSection';
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
 
         <FeaturedGroups initfeatureds={initfeatureds}></FeaturedGroups>
         </Suspense>
+        <BlogSection></BlogSection>
         <ExtraPage></ExtraPage>
 
         </>
