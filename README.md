@@ -4,7 +4,7 @@
 
 🌐 **Live Site URL**: [https://assignment-ten-4fa46.web.app](https://assignment-ten-4fa46.web.app)
 
-🌐 client site : [https://github.com/minhazchy101/Hobby_Hub](https://github.com/minhazchy101/Hobby_Hub)
+
 
 🌐 server site : [https://github.com/minhazchy101/Hobby_Hub_Server](https://github.com/minhazchy101/Hobby_Hub_Server)
 
