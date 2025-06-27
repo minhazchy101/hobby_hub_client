@@ -12,8 +12,8 @@ const TheFooter = () => {
   <nav className="grid grid-flow-col gap-4">
 <Link to='/' className="link link-hover hover:text-primary">Home</Link>
 <Link to='/aboutUs' className="link link-hover hover:text-primary">About us</Link>
-<Link to='/contact' className="link link-hover hover:text-primary">Contact</Link>
-    
+{/* <Link to='/contact' className="link link-hover hover:text-primary">Contact</Link>
+     */}
   </nav>
   
   <aside>

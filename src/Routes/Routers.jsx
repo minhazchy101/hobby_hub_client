@@ -17,6 +17,7 @@ import UpdateGroup from "../Pages/UpdateGroup";
 import DashBoard from "../DashBoard/DashBoard";
 import DashMain from "../DashBoard/DashMain";
 import Groups from "../DashBoard/Groups";
+import AboutUs from "../Pages/AboutUs";
 
 export const router = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ export const router = createBrowserRouter([
     {
         path : 'login',
         Component : Login
+    },
+    {
+        path : 'aboutUs',
+        Component : AboutUs
     },
    ]
   },

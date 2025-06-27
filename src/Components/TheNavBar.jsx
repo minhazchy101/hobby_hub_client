@@ -47,9 +47,8 @@ const TheNavBar = () => {
   const link =  <>
     <li><NavLink className={({isActive})=>(isActive ? 'text-primary font-bold' : 'font-sem')} to='/'>Home</NavLink></li>
     <li><NavLink className={({isActive})=>(isActive ? 'text-primary font-bold' : 'font-sem')} to='/groups'>All Groups</NavLink></li>
-    <li><NavLink className={({isActive})=>(isActive ? 'text-primary font-bold' : 'font-sem')} to='/'>About us</NavLink></li>
-    <li><NavLink className={({isActive})=>(isActive ? 'text-primary font-bold' : 'font-sem')} to='/'>Contact</NavLink></li>
-    <li><NavLink className={({isActive})=>(isActive ? 'text-primary font-bold' : 'font-sem')} to='/'>Support </NavLink></li>
+    <li><NavLink className={({isActive})=>(isActive ? 'text-primary font-bold' : 'font-sem')} to='/aboutUs'>About us</NavLink></li>
+    
 
   {
     user && <>
