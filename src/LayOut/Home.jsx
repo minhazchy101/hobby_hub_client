@@ -11,8 +11,8 @@ const Home = () => {
     
     return (
         <>
-        <Banner></Banner>
         <Slider></Slider>
+        <Banner></Banner>
         <Suspense fallback={<span className="loading loading-spinner loading-lg"></span>}>
 
         <FeaturedGroups initfeatureds={initfeatureds}></FeaturedGroups>
